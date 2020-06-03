@@ -7,4 +7,4 @@ class Player:
         self.age=age
         
     def __str__(self):
-    player_details=
+        return f"The player {self.name} belongs to {self.room} and is {self.age} old"
